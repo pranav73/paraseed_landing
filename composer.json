@@ -1,0 +1,48 @@
+{
+  "name": "pranav/paraseed_bootstrap_paragraphs",
+  "description": "A suite of Paragraph bundles to be used for Parseed distribution. Made with the Boostrap framework, based on a fork of Bootstrap Paragraph module (bootstrap_paragraphs).",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Pranav Aeer",
+      "email": "pranav.aeer@osseed.com"
+    }
+  ],
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "assets": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "oomphinc/composer-installers-extender": "~1.0",
+    "cweagans/composer-patches": "~1.0",
+    "drupal/drupal-library-installer-plugin": "^0.3",
+    "drupal/core": "^8.8.0 || ~9.0.0",
+    "pranav73/paraseed_media": "dev-master",
+    "pranav73/paraseed_bootstrap_paragraphs": "dev-master",
+    "drupal/paragraphs_features": "~1.0",
+    "drupal/paragraphs_asymmetric_translation_widgets": "~1.0",
+    "drupal/length_indicator": "~1.0",
+    "drupal/advanced_text_formatter": "~2.0",
+    "drupal/maxlength": "~1.0"
+  },
+  "extra": {
+    "installer-types": [
+      "bower-asset",
+      "npm-asset"
+    ],
+    "installer-paths": {
+      "libraries/{$name}": [
+        "type:drupal-library"
+      ]
+    }
+  }
+}

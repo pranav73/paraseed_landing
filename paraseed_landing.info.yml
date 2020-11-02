@@ -1,0 +1,13 @@
+name: 'Paraseed Landing Page (Paragraphs)'
+description: 'Provides the basis for Landing Pages, which are built to include appealing stacked components that are visually separate.'
+type: module
+package: Paraseed
+core: 8.x
+dependencies:
+  - paraseed_bootstrap_paragraphs
+  - user
+  - node
+  - menu_ui
+  - length_indicator
+  - advanced_text_formatter
+  - maxlength

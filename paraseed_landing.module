@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains paraseed_landing.module.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function paraseed_landing_form_node_landing_page_edit_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // Add the Paraseed Bootstrap Paragraphs default admin styling.
+  $form['#attached']['library'][] = 'paraseed_bootstrap_paragraphs/vbp-default-admin';
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function paraseed_landing_form_node_landing_page_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // Add the Paraseed Bootstrap Paragraphs default admin styling.
+  $form['#attached']['library'][] = 'paraseed_bootstrap_paragraphs/vbp-default-admin';
+}
