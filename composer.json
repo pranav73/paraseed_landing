@@ -1,5 +1,5 @@
 {
-  "name": "pranav/paraseed_bootstrap_paragraphs",
+  "name": "pranav/paraseed_landing",
   "description": "A suite of Paragraph bundles to be used for Parseed distribution. Made with the Boostrap framework, based on a fork of Bootstrap Paragraph module (bootstrap_paragraphs).",
   "type": "drupal-module",
   "license": "GPL-2.0-or-later",
