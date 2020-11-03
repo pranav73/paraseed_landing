@@ -3,6 +3,7 @@ description: 'Provides the basis for Landing Pages, which are built to include a
 type: module
 package: Paraseed
 core: 8.x
+package: Paraseed
 dependencies:
   - paraseed_bootstrap_paragraphs
   - user
